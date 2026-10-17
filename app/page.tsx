@@ -1,7 +1,7 @@
 ﻿import type { Metadata } from "next";
 import { projects } from "../data/projects";
 
-const siteUrl = "https://ugobuezeweb.vercel.app";
+const siteUrl = "https://ugobenze.vercel.app";
 
 export const metadata: Metadata = {
   title: "Ugochukwu Meshach | Full-Stack Software Developer",
@@ -422,3 +422,4 @@ export default function Home() {
     </>
   );
 }
+

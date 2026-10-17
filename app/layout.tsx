@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://ugobuezeweb.vercel.app";
+const siteUrl = "https://ugobenze.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -67,3 +67,4 @@ export default function RootLayout({
     </html>
   );
 }
+
