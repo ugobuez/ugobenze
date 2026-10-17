@@ -1,0 +1,67 @@
+/* design-system.css */
+
+/* Base pearl-white theme with subtle holographic accents */
+:root {
+  --color-pearl: #fbf8ff;
+  --color-hot-pink: #ff4fd0;
+  --color-violet: #8b5cf6;
+  --color-sky: #38bdf8;
+  --color-aqua: #2ee6d6;
+  --color-lime: #b8f23a;
+  --color-sun: #ffd23f;
+  --color-orange: #ff9a3c;
+
+  --color-primary: var(--color-pearl);
+  --color-text: #1d1740;
+  --color-inverse: #fff;
+}
+
+/* Glass card style */
+.glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.06);
+}
+
+/* Hover foil border */
+.foil-border {
+  position: relative;
+  border: 1px solid transparent;
+}
+
+.foil-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--color-violet);
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+@keyframes holographic {
+  0% { filter: hue-rotate(0deg) brightness(1.0); }
+  50% { filter: hue-rotate(180deg) brightness(1.2); }
+  100% { filter: hue-rotate(360deg) brightness(1.0); }
+}
+
+.holographic {
+  animation: holographic 15s linear infinite;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .holographic { animation: none; }
+}
+
+/* Utility classes */
+.typography-primary { color: var(--color-text); }
+.typography-secondary { color: #5b5680; }
