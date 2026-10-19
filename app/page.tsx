@@ -284,7 +284,7 @@ export default function Home() {
               </h1>
 
               <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-600">
-                I&apos;m <strong className="text-violet-950 font-semibold">Ugochukwu Meshach</strong> (Ugobenze)—a versatile Full-Stack Software Engineer, Digital Illustrator, and Creative Technologist. I build high-performance web applications, scalable backend APIs, and precise character concept art with rigorous visual consistency.
+                I&apos;m <strong className="text-violet-950 font-semibold">Ugochukwu Meshach</strong> (Ugobenze) a versatile Full-Stack Software Engineer, Digital Illustrator, and Creative Technologist. I build high-performance web applications, scalable backend APIs, and precise character concept art with rigorous visual consistency.
               </p>
 
               <div className="mt-9 flex flex-wrap gap-3">
@@ -498,8 +498,8 @@ export default function Home() {
               <article className="group flex flex-col gap-8 rounded-3xl border border-violet-100 bg-white p-6 shadow-sm transition duration-500 hover:border-violet-300 hover:shadow-2xl hover:shadow-violet-100/70 lg:flex-row lg:p-8">
                 <div className="w-full overflow-hidden rounded-2xl border border-violet-100 bg-slate-900 lg:w-3/5">
                   <img 
-                    src="https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:1e6d2783-8e9b-4169-b53f-ecddcda495b9" 
-                    alt="Character Concept Variations and Illustration" 
+                    src="image/716f5346-b283-460d-8baf-5ae97f059309.png" 
+                    alt="Character Concept Variations and Illustration | adobe.io" 
                     className="w-full h-auto object-cover rounded-xl transition-transform duration-700 group-hover:scale-[1.02]"
                   />
                 </div>
